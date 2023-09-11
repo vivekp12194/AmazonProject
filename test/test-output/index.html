@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AmazonEcommerce" class="navigator-link">
+              <span class="suite-name border-failed">AmazonEcommerce</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AmazonEcommerce" class="navigator-link ">
+                    <span>C:\Users\User\eclipse-workspace\Amazon_Ecommerce\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AmazonEcommerce" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AmazonEcommerce" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AmazonEcommerce" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AmazonEcommerce" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AmazonEcommerce" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AmazonEcommerce" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AmazonEcommerce" class="hide-methods failed suite-AmazonEcommerce"> (hide)</a> <!-- hide-methods failed suite-AmazonEcommerce -->
+                      <a href="#" panel-name="suite-AmazonEcommerce" class="show-methods failed suite-AmazonEcommerce"> (show)</a> <!-- show-methods failed suite-AmazonEcommerce -->
+                    </span>
+                    <div class="method-list-content failed suite-AmazonEcommerce">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Search" class="method navigator-link" hash-for-method="TC27_productinfo">TC27_productinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_CreateAccount" class="method navigator-link" hash-for-method="TC9_validdetails">TC9_validdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_YourOrders" class="method navigator-link" hash-for-method="TC_yourorders">TC_yourorders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AmazonEcommerce -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmazonEcommerce" class="hide-methods passed suite-AmazonEcommerce"> (hide)</a> <!-- hide-methods passed suite-AmazonEcommerce -->
+                      <a href="#" panel-name="suite-AmazonEcommerce" class="show-methods passed suite-AmazonEcommerce"> (show)</a> <!-- show-methods passed suite-AmazonEcommerce -->
+                    </span>
+                    <div class="method-list-content passed suite-AmazonEcommerce">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Signin" class="method navigator-link" hash-for-method="TC10_invalidemailid">TC10_invalidemailid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Signin" class="method navigator-link" hash-for-method="TC11_validemailid">TC11_validemailid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Signin" class="method navigator-link" hash-for-method="TC12_invalidpassword">TC12_invalidpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Signin" class="method navigator-link" hash-for-method="TC13_validpassword">TC13_validpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Search" class="method navigator-link" hash-for-method="TC25_searchitem">TC25_searchitem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Search" class="method navigator-link" hash-for-method="TC28_numberofproducts">TC28_numberofproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_CreateAccount" class="method navigator-link" hash-for-method="TC2_Emptynamefield">TC2_Emptynamefield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_CreateAccount" class="method navigator-link" hash-for-method="TC3_Emptyemailormobilenumberfield">TC3_Emptyemailormobilenumberfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_CreateAccount" class="method navigator-link" hash-for-method="TC4_verfiymobilenumberfield">TC4_verfiymobilenumberfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_CreateAccount" class="method navigator-link" hash-for-method="TC5_verfiyemailfield">TC5_verfiyemailfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_CreateAccount" class="method navigator-link" hash-for-method="TC7_invalidpassowrd">TC7_invalidpassowrd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonEcommerce" title="testcases_amazon.Test_Search" class="method navigator-link" hash-for-method="TC_filtration">TC_filtration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmazonEcommerce -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AmazonEcommerce" class="panel AmazonEcommerce">
+          <div class="suite-AmazonEcommerce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases_amazon.Test_YourOrders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_yourorders">
+                  </a> <!-- TC_yourorders -->
+                  <span class="method-name">TC_yourorders</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test Passed expected [We aren&apos;t finding any cancelled orders (for orders placed in the last 6 months).View all orders] but found [We aren&apos;t finding any cancelled orders (for orders placed in the last 6 months). View all orders]
+	at pom_amazon.Pom_YourOrders.cancelledorders(Pom_YourOrders.java:71)
+	at testcases_amazon.Test_YourOrders.TC_yourorders(Test_YourOrders.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonEcommerce-class-failed -->
+          <div class="suite-AmazonEcommerce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases_amazon.Test_CreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9_validdetails">
+                  </a> <!-- TC9_validdetails -->
+                  <span class="method-name">TC9_validdetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Start here.&quot;}
+  (Session info: chrome=116.0.5845.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [336bd63b5aa0288e7e82a214f89d0a1b, findElement {using=link text, value=Start here.}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64203/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 336bd63b5aa0288e7e82a214f89d0a1b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pom_amazon.Pom_Homepage.clickonstarthere(Pom_Homepage.java:23)
+	at testcases_amazon.Test_CreateAccount.TC9_validdetails(Test_CreateAccount.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonEcommerce-class-failed -->
+          <div class="suite-AmazonEcommerce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases_amazon.Test_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC27_productinfo">
+                  </a> <!-- TC27_productinfo -->
+                  <span class="method-name">TC27_productinfo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#twotabsearchtextbox&quot;}
+  (Session info: chrome=116.0.5845.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56a0db1cacc40e17085d2812bde8be01, findElement {using=id, value=twotabsearchtextbox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64743/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56a0db1cacc40e17085d2812bde8be01
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at pom_amazon.Pom_Search.searchitem(Pom_Search.java:36)
+	at testcases_amazon.Test_Search.TC27_productinfo(Test_Search.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonEcommerce-class-failed -->
+          <div class="suite-AmazonEcommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases_amazon.Test_Signin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_invalidemailid">
+                  </a> <!-- TC10_invalidemailid -->
+                  <span class="method-name">TC10_invalidemailid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_validemailid">
+                  </a> <!-- TC11_validemailid -->
+                  <span class="method-name">TC11_validemailid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_invalidpassword">
+                  </a> <!-- TC12_invalidpassword -->
+                  <span class="method-name">TC12_invalidpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_validpassword">
+                  </a> <!-- TC13_validpassword -->
+                  <span class="method-name">TC13_validpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonEcommerce-class-passed -->
+          <div class="suite-AmazonEcommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases_amazon.Test_CreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_Emptynamefield">
+                  </a> <!-- TC2_Emptynamefield -->
+                  <span class="method-name">TC2_Emptynamefield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3_Emptyemailormobilenumberfield">
+                  </a> <!-- TC3_Emptyemailormobilenumberfield -->
+                  <span class="method-name">TC3_Emptyemailormobilenumberfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4_verfiymobilenumberfield">
+                  </a> <!-- TC4_verfiymobilenumberfield -->
+                  <span class="method-name">TC4_verfiymobilenumberfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5_verfiyemailfield">
+                  </a> <!-- TC5_verfiyemailfield -->
+                  <span class="method-name">TC5_verfiyemailfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7_invalidpassowrd">
+                  </a> <!-- TC7_invalidpassowrd -->
+                  <span class="method-name">TC7_invalidpassowrd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonEcommerce-class-passed -->
+          <div class="suite-AmazonEcommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases_amazon.Test_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25_searchitem">
+                  </a> <!-- TC25_searchitem -->
+                  <span class="method-name">TC25_searchitem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC28_numberofproducts">
+                  </a> <!-- TC28_numberofproducts -->
+                  <span class="method-name">TC28_numberofproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_filtration">
+                  </a> <!-- TC_filtration -->
+                  <span class="method-name">TC_filtration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonEcommerce-class-passed -->
+        </div> <!-- panel AmazonEcommerce -->
+        <div panel-name="test-xml-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\Amazon_Ecommerce\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AmazonEcommerce&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Unittesting&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases_amazon.Test_CreateAccount&quot;/&gt;
+      &lt;class name=&quot;testcases_amazon.Test_Signin&quot;/&gt;
+      &lt;class name=&quot;testcases_amazon.Test_Search&quot;/&gt;
+      &lt;class name=&quot;testcases_amazon.Test_YourOrders&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Unittesting --&gt;
+&lt;/suite&gt; &lt;!-- AmazonEcommerce --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AmazonEcommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Unittesting (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AmazonEcommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AmazonEcommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AmazonEcommerce');
+function tableData_AmazonEcommerce() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC9_validdetails')
+data.setCell(0, 2, 'testcases_amazon.Test_CreateAccount')
+data.setCell(0, 3, 30258);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC27_productinfo')
+data.setCell(1, 2, 'testcases_amazon.Test_Search')
+data.setCell(1, 3, 30050);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_yourorders')
+data.setCell(2, 2, 'testcases_amazon.Test_YourOrders')
+data.setCell(2, 3, 18509);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_filtration')
+data.setCell(3, 2, 'testcases_amazon.Test_Search')
+data.setCell(3, 3, 7430);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC2_Emptynamefield')
+data.setCell(4, 2, 'testcases_amazon.Test_CreateAccount')
+data.setCell(4, 3, 3233);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC4_verfiymobilenumberfield')
+data.setCell(5, 2, 'testcases_amazon.Test_CreateAccount')
+data.setCell(5, 3, 3206);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC3_Emptyemailormobilenumberfield')
+data.setCell(6, 2, 'testcases_amazon.Test_CreateAccount')
+data.setCell(6, 3, 3203);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC13_validpassword')
+data.setCell(7, 2, 'testcases_amazon.Test_Signin')
+data.setCell(7, 3, 3185);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC25_searchitem')
+data.setCell(8, 2, 'testcases_amazon.Test_Search')
+data.setCell(8, 3, 2872);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC28_numberofproducts')
+data.setCell(9, 2, 'testcases_amazon.Test_Search')
+data.setCell(9, 3, 2861);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC7_invalidpassowrd')
+data.setCell(10, 2, 'testcases_amazon.Test_CreateAccount')
+data.setCell(10, 3, 2272);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC12_invalidpassword')
+data.setCell(11, 2, 'testcases_amazon.Test_Signin')
+data.setCell(11, 3, 1622);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC5_verfiyemailfield')
+data.setCell(12, 2, 'testcases_amazon.Test_CreateAccount')
+data.setCell(12, 3, 1267);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC11_validemailid')
+data.setCell(13, 2, 'testcases_amazon.Test_Signin')
+data.setCell(13, 3, 876);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC10_invalidemailid')
+data.setCell(14, 2, 'testcases_amazon.Test_Signin')
+data.setCell(14, 3, 444);
+window.suiteTableData['AmazonEcommerce']= { tableData: data, tableDiv: 'times-div-AmazonEcommerce'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-AmazonEcommerce">
+              </div> <!-- times-div-AmazonEcommerce -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AmazonEcommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AmazonEcommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases_amazon.Test_CreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2_Emptynamefield</span>
+                <span class="method-start">3376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">6611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">6614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC3_Emptyemailormobilenumberfield</span>
+                <span class="method-start">8914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">12118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">12119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4_verfiymobilenumberfield</span>
+                <span class="method-start">14727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">17935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">17936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC5_verfiyemailfield</span>
+                <span class="method-start">23187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">24455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">24456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC7_invalidpassowrd</span>
+                <span class="method-start">27103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">29376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">29378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC9_validdetails</span>
+                <span class="method-start">50979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">81240 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases_amazon.Test_Signin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">81241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC10_invalidemailid</span>
+                <span class="method-start">87245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">87690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">87814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC11_validemailid</span>
+                <span class="method-start">94116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">94994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">95127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC12_invalidpassword</span>
+                <span class="method-start">101389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">103012 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">103127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC13_validpassword</span>
+                <span class="method-start">109146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">112335 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases_amazon.Test_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">112468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC25_searchitem</span>
+                <span class="method-start">115020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">117896 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">118062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC27_productinfo</span>
+                <span class="method-start">119555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">149608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">149700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC28_numberofproducts</span>
+                <span class="method-start">151892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">154754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">154868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_filtration</span>
+                <span class="method-start">157326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">164756 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases_amazon.Test_YourOrders</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">164921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_yourorders</span>
+                <span class="method-start">167194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">185704 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

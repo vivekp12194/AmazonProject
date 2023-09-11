@@ -1,0 +1,11 @@
+<suite name="AmazonEcommerce">
+	<test name="Unittesting" allow-return-values="true">
+		<classes>
+			<class name="testcases_amazon.Test_CreateAccount" />
+			<class name="testcases_amazon.Test_Signin" />
+			<class name="testcases_amazon.Test_Search" />
+			<class name="testcases_amazon.Test_YourOrders" />
+			
+		</classes>
+		</test>
+</suite>

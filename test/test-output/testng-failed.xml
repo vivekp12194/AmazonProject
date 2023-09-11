@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonEcommerce]">
+  <test thread-count="5" name="Unittesting(failed)">
+    <classes>
+      <class name="testcases_amazon.Test_YourOrders">
+        <methods>
+          <include name="initsetup"/>
+          <include name="browserclose"/>
+          <include name="TC_yourorders"/>
+        </methods>
+      </class> <!-- testcases_amazon.Test_YourOrders -->
+      <class name="testcases_amazon.Test_CreateAccount">
+        <methods>
+          <include name="TC9_validdetails"/>
+          <include name="initsetup"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testcases_amazon.Test_CreateAccount -->
+      <class name="testcases_amazon.Test_Search">
+        <methods>
+          <include name="browserclose"/>
+          <include name="initsetup"/>
+          <include name="TC27_productinfo"/>
+        </methods>
+      </class> <!-- testcases_amazon.Test_Search -->
+    </classes>
+  </test> <!-- Unittesting(failed) -->
+</suite> <!-- Failed suite [AmazonEcommerce] -->
