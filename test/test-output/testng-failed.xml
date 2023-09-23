@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [AmazonEcommerce]">
-  <test thread-count="5" name="Unittesting(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases_amazon.Test_YourOrders">
+      <class name="testcases_amazon.Test_ShoppingCart">
         <methods>
-          <include name="initsetup"/>
-          <include name="browserclose"/>
-          <include name="TC_yourorders"/>
-        </methods>
-      </class> <!-- testcases_amazon.Test_YourOrders -->
-      <class name="testcases_amazon.Test_CreateAccount">
-        <methods>
-          <include name="TC9_validdetails"/>
-          <include name="initsetup"/>
-          <include name="closebrowser"/>
-        </methods>
-      </class> <!-- testcases_amazon.Test_CreateAccount -->
-      <class name="testcases_amazon.Test_Search">
-        <methods>
+          <include name="TC_removeitemsfromcart"/>
           <include name="browserclose"/>
           <include name="initsetup"/>
-          <include name="TC27_productinfo"/>
         </methods>
-      </class> <!-- testcases_amazon.Test_Search -->
+      </class> <!-- testcases_amazon.Test_ShoppingCart -->
     </classes>
-  </test> <!-- Unittesting(failed) -->
-</suite> <!-- Failed suite [AmazonEcommerce] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

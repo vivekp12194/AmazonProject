@@ -46,7 +46,7 @@ public class AmazonBaseClass {
 			}
 			driver.manage().window().maximize();
 			driver.get(prop.getProperty("url"));
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 			
 	}
 		public static void login() throws InterruptedException {

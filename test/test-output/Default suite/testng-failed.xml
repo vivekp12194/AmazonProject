@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases_amazon.Test_Search">
+      <class name="testcases_amazon.Test_ShoppingCart">
         <methods>
-          <include name="TC_filtration"/>
+          <include name="TC_removeitemsfromcart"/>
           <include name="browserclose"/>
           <include name="initsetup"/>
         </methods>
-      </class> <!-- testcases_amazon.Test_Search -->
+      </class> <!-- testcases_amazon.Test_ShoppingCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

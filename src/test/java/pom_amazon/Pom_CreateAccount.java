@@ -61,16 +61,16 @@ public class Pom_CreateAccount extends AmazonBaseClass{
 		String emailactual = emailerror.getText();
 		String passwordactual = passwordverror.getText();
 		if(nameactual.equals("Enter your name")) {
-			Assert.assertEquals(nameactual, "Enter your name","Test Passed");
-			//System.out.println(nameactual);
+			Assert.assertEquals(nameactual, "Enter your name");
+			System.out.println(nameactual);
 		}
 		else if(emailactual.equals("Enter your e-mail address or mobile phone number")){
-			Assert.assertEquals(emailactual, "Enter your e-mail address or mobile phone number", "Test Pased");
-			//System.out.println(emailactual);
+			Assert.assertEquals(emailactual, "Enter your e-mail address or mobile phone number");
+			System.out.println(emailactual);
 		}
 		else if(passwordactual.equals("Minimum 6 characters required")) {
 			Assert.assertEquals(passwordactual, "Minimum 6 characters required");
-			//System.out.println("pass");
+			System.out.println("pass");
 		}
 		else  {
 		

@@ -8,81 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">AmazonEcommerce</th></tr>
-<tr><td><a href="#t0">Unittesting</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">185,748</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,164</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AmazonEcommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Unittesting &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases_amazon.Test_CreateAccount</td><td><a href="#m0">TC9_validdetails</a></td><td rowspan="1">1694460133654</td><td rowspan="1">30258</td></tr><tr class="failedodd"><td rowspan="1">testcases_amazon.Test_Search</td><td><a href="#m1">TC27_productinfo</a></td><td rowspan="1">1694460202230</td><td rowspan="1">30050</td></tr><tr class="failedeven"><td rowspan="1">testcases_amazon.Test_YourOrders</td><td><a href="#m2">TC_yourorders</a></td><td rowspan="1">1694460249869</td><td rowspan="1">18509</td></tr><tr><th colspan="4">Unittesting &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">testcases_amazon.Test_CreateAccount</td><td><a href="#m3">TC2_Emptynamefield</a></td><td rowspan="1">1694460086051</td><td rowspan="1">3233</td></tr><tr class="passedeven"><td><a href="#m4">TC3_Emptyemailormobilenumberfield</a></td><td rowspan="1">1694460091589</td><td rowspan="1">3203</td></tr><tr class="passedeven"><td><a href="#m5">TC4_verfiymobilenumberfield</a></td><td rowspan="1">1694460097402</td><td rowspan="1">3206</td></tr><tr class="passedeven"><td><a href="#m6">TC5_verfiyemailfield</a></td><td rowspan="1">1694460105862</td><td rowspan="1">1267</td></tr><tr class="passedeven"><td><a href="#m7">TC7_invalidpassowrd</a></td><td rowspan="1">1694460109778</td><td rowspan="1">2272</td></tr><tr class="passedodd"><td rowspan="3">testcases_amazon.Test_Search</td><td><a href="#m8">TC25_searchitem</a></td><td rowspan="1">1694460197695</td><td rowspan="1">2872</td></tr><tr class="passedodd"><td><a href="#m9">TC28_numberofproducts</a></td><td rowspan="1">1694460234567</td><td rowspan="1">2861</td></tr><tr class="passedodd"><td><a href="#m10">TC_filtration</a></td><td rowspan="1">1694460240001</td><td rowspan="1">7430</td></tr><tr class="passedeven"><td rowspan="4">testcases_amazon.Test_Signin</td><td><a href="#m11">TC10_invalidemailid</a></td><td rowspan="1">1694460169920</td><td rowspan="1">444</td></tr><tr class="passedeven"><td><a href="#m12">TC11_validemailid</a></td><td rowspan="1">1694460176791</td><td rowspan="1">876</td></tr><tr class="passedeven"><td><a href="#m13">TC12_invalidpassword</a></td><td rowspan="1">1694460184064</td><td rowspan="1">1622</td></tr><tr class="passedeven"><td><a href="#m14">TC13_validpassword</a></td><td rowspan="1">1694460191821</td><td rowspan="1">3185</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases_amazon.Test_ShoppingCart</td><td><a href="#m0">TC_removeitemsfromcart</a></td><td rowspan="1">1695493409442</td><td rowspan="1">32211</td></tr></tbody>
 </table>
-<h2>Unittesting</h2><h3 id="m0">testcases_amazon.Test_CreateAccount#TC9_validdetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Start here.&quot;}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [336bd63b5aa0288e7e82a214f89d0a1b, findElement {using=link text, value=Start here.}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64203/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 336bd63b5aa0288e7e82a214f89d0a1b
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at pom_amazon.Pom_Homepage.clickonstarthere(Pom_Homepage.java:23)
-	at testcases_amazon.Test_CreateAccount.TC9_validdetails(Test_CreateAccount.java:85)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases_amazon.Test_Search#TC27_productinfo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#twotabsearchtextbox&quot;}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56a0db1cacc40e17085d2812bde8be01, findElement {using=id, value=twotabsearchtextbox}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64743/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56a0db1cacc40e17085d2812bde8be01
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
-	at pom_amazon.Pom_Search.searchitem(Pom_Search.java:36)
-	at testcases_amazon.Test_Search.TC27_productinfo(Test_Search.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases_amazon.Test_YourOrders#TC_yourorders</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Passed expected [We aren&apos;t finding any cancelled orders (for orders placed in the last 6 months).View all orders] but found [We aren&apos;t finding any cancelled orders (for orders placed in the last 6 months). View all orders]
-	at pom_amazon.Pom_YourOrders.cancelledorders(Pom_YourOrders.java:71)
-	at testcases_amazon.Test_YourOrders.TC_yourorders(Test_YourOrders.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testcases_amazon.Test_CreateAccount#TC2_Emptynamefield</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcases_amazon.Test_CreateAccount#TC3_Emptyemailormobilenumberfield</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testcases_amazon.Test_CreateAccount#TC4_verfiymobilenumberfield</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testcases_amazon.Test_CreateAccount#TC5_verfiyemailfield</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testcases_amazon.Test_CreateAccount#TC7_invalidpassowrd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testcases_amazon.Test_Search#TC25_searchitem</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">testcases_amazon.Test_Search#TC28_numberofproducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">testcases_amazon.Test_Search#TC_filtration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">testcases_amazon.Test_Signin#TC10_invalidemailid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">testcases_amazon.Test_Signin#TC11_validemailid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">testcases_amazon.Test_Signin#TC12_invalidpassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">testcases_amazon.Test_Signin#TC13_validpassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">testcases_amazon.Test_ShoppingCart#TC_removeitemsfromcart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

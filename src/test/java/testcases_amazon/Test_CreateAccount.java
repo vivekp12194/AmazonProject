@@ -44,7 +44,7 @@ public class Test_CreateAccount extends AmazonBaseClass {
 		create_acc.enteryourname("vivek");
 		create_acc.enteremail("");
 		create_acc.enterpassword("abcd@1212");
-		create_acc.enterpasswordagain("abcd@gmail.com");
+		create_acc.enterpasswordagain("abcd@1212");
 		create_acc.verifyemailmobile();
 		create_acc.verifyerror();
 	}
